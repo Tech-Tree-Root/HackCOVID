@@ -1,0 +1,257 @@
+body {
+  background: url('../images/carpediem.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #001a57;*/
+  min-width: 100%;
+  min-height: 100%;
+  /*background-position: center;*/
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body a {
+  text-decoration: none;
+}
+
+img {
+  text-align: center;
+}
+
+/*something that could be put anywhere*/
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  float: center;
+}
+
+.container ul {
+  color: #000000;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #012169;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+  font-size: 50px;
+  float: center;
+  margin-top: 10px;
+}
+
+header h1 {
+  font-size: 20px;
+  float: center;
+  margin-top: 10px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 0 0 20px;
+  color: #ffffff;
+}
+
+header li a {
+  color: #012169;
+}
+
+header li a:hover {
+  color: #ffffff;
+  text-shadow: -1px 0 #001a57, 0 1px #001a57, 1px 0 #001a57, 0 -1px #001a57;
+}
+
+input.headerbutton {
+  font-weight: bolder;
+  color: #ffffff;
+  background-color: #012169;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: -10px;
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+}
+
+input.headerbutton:hover {
+  color: #d4af37;
+  background-color: #ffffff;
+}
+
+header #logobrand {
+  float: left;
+  margin-top: 10px;
+}
+
+header #logobrand h1 {
+  margin: 0;
+}
+
+header #logobrand a {
+  color: #001a57;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+header #logobrand a:hover {
+  color: #ffffff;
+  text-shadow: -1px 0 #001a57, 0 2px #001a57, 1px 0 #001a57, 0 -1px #001a57;
+}
+
+/* showcase*/
+
+#showcase {
+  min-height: 350px;
+  color: #000000;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+  float: center;
+}
+
+#showcase h1 {
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #012169;
+}
+
+#showcase h2 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-shadow: -1px 0 #001a57, 0 1px #001a57, 1px 0 #001a57, 0 -1px #001a57;
+}
+
+#showcase h3 {
+  color: #ffffff;
+  text-shadow: -1px 0 #0000ff, 0 1px #0000ff, 1px 0 #0000ff, 0 -1px #0000ff;
+  font-size: 30px;
+  /*???*/
+}
+
+#showcase h4 {
+  color: #ffffff;
+  text-shadow: -1px 0 #001a57, 0 1px #001a57, 1px 0 #001a57, 0 -1px #001a57;
+  font-size: 20px;
+  margin-top: -30px;
+  /*margin-bottom: 10px;*/
+}
+
+#showcase h5 {
+  color: #ffffff;
+  text-shadow: -1px 0 #001a57, 0 1px #001a57, 1px 0 #001a57, 0 -1px #001a57;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+#showcase h6 {
+  color: #ffffff;
+  text-shadow: -1px 0 #001a57, 0 1px #001a57, 1px 0 #001a57, 0 -1px #001a57;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  color: #001a57;
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+#showcase a {
+  color: #0000ff;
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+#showcase a:hover {
+  color: #ffffff;
+  font-size: 20px;
+  text-shadow: -1px 0 #0000ff, 0 1px #0000ff, 1px 0 #0000ff, 0 -1px #0000ff;
+  font-weight: bolder;
+}
+
+footer {
+  color: #012169;
+  font-size: 23px;
+}
+
+footer a {
+  color: #0000ff;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-shadow: -1px 0 #0000ff, 0 1px #0000ff, 1px 0 #0000ff, 0 -1px #0000ff;
+}
+
+footer.button {
+  color: #001a57;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  overflow: hidden;
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+}
+
+input.button {
+  color: #001a57;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  overflow: hidden;
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+}
+
+input.button:hover {
+  color: #ffffff;
+  background-color: #001a57;
+}
+
+input.clickbutton {
+  font-weight: bolder;
+  color: #ffffff;
+  background-color: #012169;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  height: 40px;
+  font-size: 30px;
+}
+
+input.clickbutton:hover {
+  color: #d4af37;
+  background-color: #ffffff;
+}

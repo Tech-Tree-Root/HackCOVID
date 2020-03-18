@@ -26,6 +26,7 @@ img {
 .container {
   float: center;
   margin: auto;
+  max-width: 100%;
   overflow: hidden;
   width: 90%;
 }

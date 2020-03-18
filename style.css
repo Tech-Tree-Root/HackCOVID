@@ -3,14 +3,14 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 100%;
   min-height: 100%;
+  min-width: 100%;
   font-family: Helvetica, sans-serif;
-  font-weight: bolder;
   font-size: 15px;
+  font-weight: bolder;
   line-height: 1.5;
-  padding: 0;
   margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -24,10 +24,10 @@ img {
 
 /*something that could be put anywhere*/
 .container {
-  width: 90%;
+  float: center;
   margin: auto;
   overflow: hidden;
-  float: center;
+  width: 90%;
 }
 
 .container ul {
@@ -41,29 +41,29 @@ ul {
 
 header {
   color: #012169;
-  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
-  font-size: 50px;
   float: center;
+  font-size: 50px;
   margin-top: 10px;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
 }
 
 header h1 {
-  font-size: 20px;
   float: center;
+  font-size: 20px;
   margin-top: 10px;
 }
 
 header nav {
   float: right;
-  margin-top: 10px;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 header li {
-  float: left;
-  display: inline;
-  padding: 0 0 0 20px;
   color: #ffffff;
+  display: inline;
+  float: left;
+  padding: 0 0 0 20px;
 }
 
 header li a {
@@ -72,26 +72,26 @@ header li a {
 
 header li a:hover {
   color: #ffffff;
-  text-shadow: -1px 0 #001a57, 0 1px #001a57, 1px 0 #001a57, 0 -1px #001a57;
+  text-shadow: -1px 0 #012169, 0 1px #012169, 1px 0 #012169, 0 -1px #012169;
 }
 
 input.headerbutton {
-  font-weight: bolder;
-  color: #ffffff;
   background-color: #012169;
   background-repeat: no-repeat;
   border: none;
+  color: #ffffff;
   cursor: pointer;
-  overflow: hidden;
-  margin-top: -10px;
-  width: 160px;
-  height: 40px;
   font-size: 20px;
+  font-weight: bolder;
+  height: 40px;
+  margin-top: -10px;
+  overflow: hidden;
+  width: 160px;
 }
 
 input.headerbutton:hover {
-  color: #d4af37;
   background-color: #ffffff;
+  color: #00539B;
 }
 
 header #logobrand {
@@ -104,77 +104,44 @@ header #logobrand h1 {
 }
 
 header #logobrand a {
-  color: #001a57;
+  color: #012169;
   text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
 }
 
 header #logobrand a:hover {
   color: #ffffff;
-  text-shadow: -1px 0 #001a57, 0 2px #001a57, 1px 0 #001a57, 0 -1px #001a57;
+  text-shadow: -1px 0 #012169, 0 2px #012169, 1px 0 #012169, 0 -1px #012169;
 }
 
 /* showcase*/
 
 #showcase {
-  min-height: 350px;
   color: #000000;
-  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
   float: center;
+  min-height: 350px;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
 }
 
 #showcase h1 {
-  font-size: 75px;
-  margin-top: 0px;
-  margin-bottom: 0px;
   color: #012169;
+  font-size: 75px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 #showcase h2 {
+  color: #00539B;
   font-size: 30px;
-  margin-top: 0px;
   margin-bottom: 0px;
-  color: #00539B;
-}
-
-#showcase h3 {
-  color: #012169;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#showcase h4 {
-  color: #00539B;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#showcase h5 {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: lighter;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-shadow: -1px 0 #001a57, 0 1px #001a57, 1px 0 #001a57, 0 -1px #001a57;
-}
-
-#showcase h6 {
-  color: #ffffff;
-  text-shadow: -1px 0 #001a57, 0 1px #001a57, 1px 0 #001a57, 0 -1px #001a57;
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 #showcase p {
-  color: #001a57;
+  color: #012169;
   font-size: 20px;
   font-weight: bolder;
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #showcase a {
@@ -187,69 +154,46 @@ header #logobrand a:hover {
 #showcase a:hover {
   color: #ffffff;
   font-size: 20px;
-  text-shadow: -1px 0 #0000ff, 0 1px #0000ff, 1px 0 #0000ff, 0 -1px #0000ff;
+  text-shadow: -1px 0 #012169, 0 1px #012169, 1px 0 #012169, 0 -1px #012169;
   font-weight: bolder;
 }
 
 footer {
   color: #012169;
-  font-size: 23px;
-}
-
-footer a {
-  color: #0000ff;
-  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
-}
-
-footer a:hover {
-  color: #ffffff;
-  text-shadow: -1px 0 #0000ff, 0 1px #0000ff, 1px 0 #0000ff, 0 -1px #0000ff;
-}
-
-footer.button {
-  color: #001a57;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  margin-top: 40px;
-  overflow: hidden;
-  width: 160px;
-  height: 40px;
   font-size: 20px;
 }
 
 input.button {
-  color: #001a57;
   background-color: #ffffff;
   background-repeat: no-repeat;
   border: none;
+  color: #012169;
   cursor: pointer;
+  font-size: 20px;
+  height: 40px;
   margin-top: 40px;
   overflow: hidden;
   width: 160px;
-  height: 40px;
-  font-size: 20px;
 }
 
 input.button:hover {
+  background-color: #012169;
   color: #ffffff;
-  background-color: #001a57;
 }
 
 input.clickbutton {
-  font-weight: bolder;
-  color: #ffffff;
   background-color: #012169;
   background-repeat: no-repeat;
   border: none;
+  color: #ffffff;
   cursor: pointer;
-  overflow: hidden;
-  height: 40px;
+  font-weight: bolder;
   font-size: 30px;
+  height: 40px;
+  overflow: hidden;
 }
 
 input.clickbutton:hover {
-  color: #d4af37;
   background-color: #ffffff;
+  color: #00539B;
 }

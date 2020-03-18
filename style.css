@@ -40,6 +40,8 @@ ul {
   padding: 0;
 }
 
+/*sidd*/
+
 header {
   color: #012169;
   float: center;
@@ -48,17 +50,23 @@ header {
   text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
 }
 
+/*sidd*/
+
 header h1 {
   float: center;
   font-size: 20px;
   margin-top: 10px;
 }
 
+/*sidd*/
+
 header nav {
   float: right;
   font-size: 20px;
   margin-top: 10px;
 }
+
+/*sidd*/
 
 header li {
   color: #ffffff;
@@ -67,14 +75,20 @@ header li {
   padding: 0 0 0 20px;
 }
 
+/*sidd*/
+
 header li a {
   color: #012169;
 }
+
+/*sidd*/
 
 header li a:hover {
   color: #ffffff;
   text-shadow: -1px 0 #012169, 0 1px #012169, 1px 0 #012169, 0 -1px #012169;
 }
+
+/*sidd*/
 
 input.headerbutton {
   background-color: #012169;
@@ -90,29 +104,41 @@ input.headerbutton {
   width: 160px;
 }
 
+/*sidd*/
+
 input.headerbutton:hover {
   background-color: #ffffff;
   color: #00539B;
 }
+
+/*sidd*/
 
 header #logobrand {
   float: left;
   margin-top: 10px;
 }
 
+/*sidd*/
+
 header #logobrand h1 {
   margin: 0;
 }
+
+/*sidd*/
 
 header #logobrand a {
   color: #012169;
   text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
 }
 
+/*sidd*/
+
 header #logobrand a:hover {
   color: #ffffff;
   text-shadow: -1px 0 #012169, 0 2px #012169, 1px 0 #012169, 0 -1px #012169;
 }
+
+/*sidd*/
 
 /* showcase*/
 
@@ -164,6 +190,8 @@ footer {
   font-size: 20px;
 }
 
+/*sidd*/
+
 input.button {
   background-color: #ffffff;
   background-repeat: no-repeat;
@@ -177,10 +205,14 @@ input.button {
   width: 160px;
 }
 
+/*sidd*/
+
 input.button:hover {
   background-color: #012169;
   color: #ffffff;
 }
+
+/*sidd*/
 
 input.clickbutton {
   background-color: #012169;
@@ -194,7 +226,11 @@ input.clickbutton {
   overflow: hidden;
 }
 
+/*sidd*/
+
 input.clickbutton:hover {
   background-color: #ffffff;
   color: #00539B;
 }
+
+/*sidd*/

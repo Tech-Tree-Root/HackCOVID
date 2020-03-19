@@ -3,13 +3,13 @@
 }
 
 body {
-  width: 1024px;
-  padding: 24px;
-  margin: 0 auto;
-  max-width: 100%;
   font-family: Helvetica, sans-serif;
   font-size: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 24px;
   text-align: center;
+  width: 1024px;
 }
 
 body a {
@@ -34,20 +34,20 @@ header {
 }
 
 header .container {
+  align-items: center;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
 }
 
 header nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
   font-size: 20px;
+  justify-content: space-between;
   margin-top: 10px;
+  width: 100%;
 }
 
 .hero-image {
@@ -55,31 +55,30 @@ header nav {
 }
 
 .hero-title {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 48px;
   margin-bottom: 64px;
+  margin-top: 48px;
 }
 
 .hero-title > * {
-  font-weight: bold;
-  font-size: 50px;
-  margin: 5px;
-  padding: 3px 24px;
   background: #00539B;
   color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 3px 24px;
 }
 
 .hero-title > span.hero-title__last,
 .hero-title > h1 {
-  font-size: 60px;
-  padding:4px 32px;
   background: #012169;
+  font-size: 60px;
+  padding: 4px 32px;
 }
 
 a.headerbutton {
-  padding: 4px 18px;
   background-color: #012169;
   background-repeat: no-repeat;
   border: none;
@@ -89,13 +88,13 @@ a.headerbutton {
   font-weight: bolder;
   line-height: 40px;
   overflow: hidden;
+  padding: 4px 18px;
 }
 
 a.headerbutton--inverse {
   background-color: #ffffff;
   color: #00539B;
 }
-/*sidd*/
 
 a.headerbutton:hover {
   background-color: #ffffff;
@@ -108,8 +107,8 @@ a.headerbutton--inverse:hover {
 }
 
 .blurb {
-  max-width: 800px;
   margin: 50px auto;
+  max-width: 800px;
 }
 
 .body-copy {
@@ -125,14 +124,14 @@ a.headerbutton--inverse:hover {
 
 .body-copy a:hover {
   color: #ffffff;
-  text-shadow: -1px 0 #012169, 0 1px #012169, 1px 0 #012169, 0 -1px #012169;
   font-weight: bolder;
+  text-shadow: -1px 0 #012169, 0 1px #012169, 1px 0 #012169, 0 -1px #012169;
 }
 
 .actions {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .actions .clickbutton {
@@ -143,8 +142,6 @@ footer {
   color: #012169;
   font-size: 20px;
 }
-
-/*sidd*/
 
 input.button {
   background-color: #ffffff;
@@ -159,29 +156,23 @@ input.button {
   width: 160px;
 }
 
-/*sidd*/
-
 input.button:hover {
   background-color: #012169;
   color: #ffffff;
 }
 
-/*sidd*/
-
 a.clickbutton {
-  padding: 8px 24px;
   background-color: #012169;
   background-repeat: no-repeat;
   border: none;
   color: #ffffff;
   cursor: pointer;
-  font-weight: bolder;
   font-size: 30px;
+  font-weight: bolder;
   line-height: 40px;
   overflow: hidden;
+  padding: 8px 24px;
 }
-
-/*sidd*/
 
 a.clickbutton:hover {
   background-color: #ffffff;
@@ -189,8 +180,8 @@ a.clickbutton:hover {
 }
 
 .team-and-sponsors {
-  margin: 50px auto;
   display: flex;
+  margin: 50px auto;
 }
 
 .team-and-sponsors h2 {
@@ -198,13 +189,13 @@ a.clickbutton:hover {
 }
 
 .team {
-  margin-top: 0;
   flex-basis: 22%;
+  margin-top: 0;
 }
 
 .sponsors {
-  margin-top: 0;
   flex-basis: 66%;
+  margin-top: 0;
 }
 
 .items {
@@ -221,9 +212,9 @@ a.clickbutton:hover {
 
 .item {
   flex-grow: 1;
-  padding: 12px;
   font-size: 18px;
   font-weight: bold;
+  padding: 12px;
 }
 
 .item img {
@@ -258,8 +249,8 @@ a.clickbutton:hover {
   }
 
   .blurb {
-    max-width: 800px;
     margin: 50px auto;
+    max-width: 800px;
     text-align: left;
   }
 

@@ -185,11 +185,11 @@ a.clickbutton:hover {
 }
 
 .team-and-sponsors h2 {
-  text-align: left;
+  text-align: center;
 }
 
 .team {
-  flex-basis: 22%;
+  flex-basis: 66%;
   margin-top: 0;
 }
 
@@ -210,6 +210,13 @@ a.clickbutton:hover {
   flex-basis: 33.3%;
 }
 
+.scotty {
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px;
+}
+
 .item {
   flex-grow: 1;
   font-size: 18px;
@@ -220,7 +227,6 @@ a.clickbutton:hover {
 .item img {
   width: 100%;
 }
-
 
 @media (max-width: 768px) {
   header nav {

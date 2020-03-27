@@ -12,11 +12,6 @@ body {
   width: 1024px;
 }
 
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 body a {
   text-decoration: none;
 }
@@ -185,64 +180,46 @@ a.clickbutton:hover {
 }
 
 .team-and-sponsors {
-  margin: 50px auto;
-  max-width: 800px;
-}
-
-.team-and-sponsors a {
-  color: #0000ff;
-}
-
-.team-and-sponsors a:hover {
-  text-decoration: underline;
-}
-
-.h2 {
-  text-align: center;
-  display: block;
-}
-
-.team, .sponsors {
   display: flex;
-  justify-content: center;
-  align-items: top;
-  flex-wrap: wrap;
+  margin: 50px auto;
 }
 
-.team__person {
+.team-and-sponsors h2 {
+  text-align: left;
+}
+
+.team {
+  flex-basis: 22%;
+  margin-top: 0;
+}
+
+.sponsors {
+  flex-basis: 66%;
+  margin-top: 0;
+}
+
+.items {
+  display: flex;
+}
+
+.team .item {
+  flex-basis: 100%;
+}
+
+.sponsors .item {
   flex-basis: 33.3%;
+}
+
+.item {
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: bold;
   padding: 12px;
 }
 
-.team__person img {
+.item img {
   width: 100%;
 }
-
-.team__person--scotty {
-  flex-basis: 70%;
-}
-
-.sponsors__sponsor {
-  flex-basis: 25%;
-  padding: 12px;
-}
-
-.sponsors__sponsor--primary {
-  flex-basis: 76%;
-}
-
-.sponsors__sponsor--primary img {
-  max-height: 200px;
-}
-
-.sponsors__sponsor--primary-alt {
-  flex-basis: 38%;
-}
-
-.sponsors__sponsor--primary-alt img {
-  max-height: 200px;
-}
-
 
 @media (max-width: 768px) {
   header nav {
@@ -284,13 +261,5 @@ a.clickbutton:hover {
 @media (max-width: 598px) {
   .team-and-sponsors, .items {
     flex-direction: column;
-  }
-  
-  .team__person, .sponsors__sponsor {
-    flex-basis: 100%;
-    padding: 12px;
-  }
-  .sponsors__sponsor img {
-    max-height: 200px;
   }
 }

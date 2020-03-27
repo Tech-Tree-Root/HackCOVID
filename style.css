@@ -290,4 +290,7 @@ a.clickbutton:hover {
     flex-basis: 100%;
     padding: 12px;
   }
+  .sponsors__sponsor img {
+    max-height: 200px;
+  }
 }

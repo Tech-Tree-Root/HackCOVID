@@ -1336,8 +1336,8 @@ nav ul ul ul li {
 }
 .team-member {
 	margin-top: 1.5rem;
-	max-width: 250px;
-	width: 250px;
+	max-width: 200px;
+	width: 200px;
 }
 .team-member-position {
 	padding: .25rem;
@@ -1345,7 +1345,7 @@ nav ul ul ul li {
 	font-size: 1rem;
 	line-height: 1.4rem;
 	overflow-y: hidden;
-	background-color: #bf38ef;
+	background-color: #012169;
 	color: #ffffff;
 	display: flex;
 	align-items: center;

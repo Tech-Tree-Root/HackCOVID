@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Rally to us and fight for a better future!">
+
+		<!-- Meta tags for social media -->
+		<meta property="og:title" content="Rally 2020">
+		<meta property="og:description" content="Rally to us and fight for a better future!">
+		<!-- <meta property="og:image" content="https://euvsvirus.org/assets/img/banner/Pan-EUHackathon-Thumbnail.jpg"> -->
+		<meta property="og:url" content="https://hackcovid.org/rally">
+		<meta property="og:type" content="website">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Rally 2020">
+		<meta name="twitter:description" content="Rally to us and fight for a better future!">
+		<!-- <meta name="twitter:image" content="https://euvsvirus.org/assets/img/banner/Pan-EUHackathon-Thumbnail.jpg"> -->
+
+		<title>Rally 2020</title>
+
+		<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+		<link rel="stylesheet" type="text/css" href="../styles/styles-022.css">
+	</head>
+
+	<body class="bg-grey">
+
+		<div class="share-container">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=https://euvsvirus.org/" target="_blank" rel="noreferrer">
+				<div class="share-btn">
+					<p>
+						Share
+					</p>
+					<img alt="The Facebook F" src="../assets/img/icons/fb-icon.png">
+				</div>
+			</a>
+		</div>
+
+		<!-- BEGIN mobile menu -->
+		<div id="mobileNav" class="overlay">
+			<section id="navbar-mobile">
+				<div class="navbar container">
+					<a href="../"><img alt="EU versus virus hashtag" src="../assets/img/navbar/EUvsVirus.png"></a>
+					<div>
+						<span class="toggle-mobile-menu-icon close" onclick="closeNav()">&times;</span>
+					</div>
+				</div>
+			</section>
+			<div class="overlay-content container">
+				<div>
+					<a href="../" class="mobile-link-item menu-hackathon">Hackathon</a>
+					<a href="../results/" class="mobile-link-item menu-item menu-results">Results</a>
+					<a href="../challenges/" class="mobile-link-item menu-item menu-challenges">Challenges</a>
+					<a href="../nextsteps/" class="mobile-link-item menu-item menu-nextsteps">What's Next</a>
+					<a href="../faq/" class="mobile-link-item menu-item menu-faq">FAQ</a>
+
+					<!-- About -->
+					<ul class="mobile-menu-sub">
+						<li>
+							<a href="../ambassadors/" class="mobile-link-item menu-item menu-ambassadors">Ambassadors</a>
+						</li>
+						<li>
+							<a href="../partners/" class="mobile-link-item menu-item menu-partners">Partners</a>
+						</li>
+						<li>
+							<a href="../team/" class="mobile-link-item menu-item menu-team">Team</a>
+						</li>
+					</ul>
+
+					<a href="../press/" class="mobile-link-item menu-item menu-press">Press</a>
+				</div>
+				<div class="d-flex mb-4">
+					<a href="https://twitter.com/EUvsVirus" target="_blank" rel="noreferrer">
+						<img class="navbar-logo-mobile" alt="Logo Twitter" src="../assets/img/navbar/twitter.png">
+					</a>
+					<a href="https://www.facebook.com/EuropeanCommission/" target="_blank" rel="noreferrer">
+						<img class="navbar-logo-mobile" alt="Logo Facebook" src="../assets/img/navbar/facebook.png">
+					</a>
+					<a href="https://www.instagram.com/EUvsVirus/" target="_blank" rel="noreferrer">
+						<img class="navbar-logo-mobile" alt="Logo Instagram" src="../assets/img/navbar/instagram.png">
+					</a>
+					<a href="https://www.linkedin.com/company/european-commission/" target="_blank" rel="noreferrer">
+						<img class="navbar-logo-mobile" alt="Logo LinkedIn" src="../assets/img/navbar/linkedin.png">
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- END mobile menu -->
+
+
+		<!-- BEGIN navbar desktop -->
+		<section id="navbar-desktop">
+			<div class="navbar container">
+				<a href="../"><img alt="EU versus virus hashtag" src="../assets/img/navbar/EUvsVirus.png"></a>
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https://euvsvirus.org/" target="_blank"
+					rel="noreferrer">
+					<div class="share-btn mobile">
+						<p>
+							Share
+						</p>
+						<img alt="The Facebook F" src="../assets/img/icons/fb-icon.png">
+					</div>
+				</a>
+				<div id="menu-mobile-burger">
+					<span class="toggle-mobile-menu-icon open" onclick="openNav()">&#9776;</span>
+				</div>
+				<nav id="menu-desktop-content">
+					<div class="d-flex">
+						<ul>
+							<li>
+								<a href="../" class="desktop-link-item menu-item menu-hackathon current-menu">Rally 2020</a>
+							</li>
+							<li>
+								<a href="../owner/" class="desktop-link-item menu-item menu-team">Leadership</a>
+							</li>
+							<li>
+								<a href="./team/" class="desktop-link-item menu-item menu-team">Team</a>
+							</li>
+							<li>
+								<a href="../partners/" class="desktop-link-item menu-item menu-partners">Partners</a>
+							</li>
+							<li>
+								<a href="../schedule/" class="desktop-link-item menu-item menu-schedule">Schedule</a>
+							</li>
+							<li class="dd">
+								<a id="about-menu-opener" style="cursor:pointer;" onclick="">Languages</a>
+								<ul>
+									<li>
+										<a href="./chi/" class="desktop-link-item menu-item menu-schedule">Chinese</a>
+									</li>
+									<li>
+										<a href="./jpn/" class="desktop-link-item menu-item menu-schedule">Japanese</a>
+									</li>
+									<li>
+										<a href="./kor/" class="desktop-link-item menu-item menu-schedule">Korean</a>
+									</li>
+									<li>
+										<a href="./esp/" class="desktop-link-item menu-item menu-schedule">Spanish</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="navbar-btn-spacing"></div>
+					<div class="d-flex align-items-center ">
+						<a class="" href="../finalreport.pdf" target="_blank">
+							<div class="primary-button btn-rounded">
+							  See Final Report
+							</div>
+						  </a>
+					</div>
+				</nav>
+			</div>
+		</section>
+		<!-- END navbar desktop -->
+
+		<!-- BEGIN ambassadors -->
+		<section id="team" class="team main-wrapper">
+			<div class="container">
+
+				<h1>Rally 2020 Team</h1>
+
+				<!-- <br>
+				<br>
+
+				<a href="#matchathon">
+					<h3><u>Matchathon Team</u></h3>
+				</a>
+
+				<br>
+
+				<a href="#hackathon">
+					<h3><u>Hackathon Team</u></h3>
+				</a> -->
+
+				<!-- <div id="matchathon" class="anchor"></div>
+				<h1>Matchathon Team</h1>
+				<div class="h1-seperator mb-4"></div> -->
+
+				<!-- Teams -->
+				<!-- <div class="team-menu">
+					<ul class="team-menu-list">
+						<a href="#m0">
+							<h4><u>European Commission</u></h4>
+						</a>
+						<a href="#m1">
+							<h4><u>EUvsVirus Leadership</u></h4>
+						</a>
+						<a href="#m2">
+							<h4><u>Tech Team</u></h4>
+						</a>
+						<a href="#m3">
+							<h4><u>Private Partnerships</u></h4>
+						</a>
+						<a href="#m4">
+							<h4><u>Academia/R&D Institutes</u></h4>
+						</a>
+						<a href="#m5">
+							<h4><u>Projects</u></h4>
+						</a>
+						<a href="#m6">
+							<h4><u>Public Authorities</u></h4>
+						</a>
+						<a href="#m7">
+							<h4><u>Program Team</u></h4>
+						</a>
+						<a href="#m8">
+							<h4><u>Operations</u></h4>
+						</a>
+						<a href="#m9">
+							<h4><u>Marketing</u></h4>
+						</a>
+						<a href="#m10">
+							<h4><u>Account Managers and Matchmakers</u></h4>
+						</a>
+					</ul>
+				</div> -->
+
+				<!-- <div id="m0" class="anchor"></div>
+				<h1 class="mt-5">European Commission</h1> -->
+
+				<!-- <br> -->
+
+				<div class="badges-wrapper">
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/scottyshaw" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Scotty_Shaw.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>SCOTTY SHAW (蕭光宇)</u></b></p>
+							<p class="team-member-position">Leader</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/maggiesin" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Maggie_Sin.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>MAGGIE SIN</u></b></p>
+							<p class="team-member-position">CMO</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/jorden-ragels" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Jorden_Ragels.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>JORDEN RAGELS</u></b></p>
+							<p class="team-member-position">Lead Developer</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/kadeempalacios" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Kadeem_Palacios.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>KADEEM PALACIOS</u></b></p>
+							<p class="team-member-position">Programmer</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/kainyryu" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Kainy_Ryu.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>KAINY RYU</u></b></p>
+							<p class="team-member-position">Lead Developer</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/mominirfan" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Momin_Irfan.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>MOMIN IRFAN</u></b></p>
+							<p class="team-member-position">Treasurer</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/benolds" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Ben_Reynolds.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>BEN REYNOLDS</u></b></p>
+							<p class="team-member-position">Secretary</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/nicklamela" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Nick_Lamela.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>NICK LAMELA</u></b></p>
+							<p class="team-member-position">Design</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/chenyu-wang-3495a0124" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Chenyu_Wang.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>CHENYU WANG</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://www.unthsc.edu/school-of-public-health/dr-wonseok-choi/" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Wonseok_Choi.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>WONSEOK CHOI (최원석)</u></b></p>
+							<p class="team-member-position">Korea</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/eric-fithian" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Eric_Fithian.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>ERIC FITHIAN</u></b></p>
+							<p class="team-member-position">Programmer</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/mariko-tatsumi-26342513a" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Mariko_Tatsumi.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>MARIKO TATSUMI</u></b></p>
+							<p class="team-member-position">Japan</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/francisco-reveriano" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Francisco_Reveriano.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>FRANCISCO REVERIANO</u></b></p>
+							<p class="team-member-position">Artificial Intelligence and Machine Learning</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/chandan-b" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Chandan_Brown.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>CHANDAN BROWN</u></b></p>
+							<p class="team-member-position">Innovator</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/jaylen-ferguson-409236100" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Jaylen_Ferguson.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>JAYLEN FERGUSON</u></b></p>
+							<p class="team-member-position">Business Analyst</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/marquavious" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Marquavious_Draggon.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>MARQUAVIOUS DRAGGON</u></b></p>
+							<p class="team-member-position">Programmer</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/sabrina-peng" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Sabrina_Peng.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>SABRINA PENG</u></b></p>
+							<p class="team-member-position">Operations</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/timirahjames" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Timirah_James.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>TIMIRAH JAMES</u></b></p>
+							<p class="team-member-position">Evangelist</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/mohamedkamara" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Mohamed_Kamara.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>MOHADEM KAMARA</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/ryankim7" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Ryan_Kim.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>RYAN KIM</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/gina-c-4bab4618a" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Gina_Choi.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>GINA CHOI</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/ashay-parikh-a0621619a" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Ashay_Parikh.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>ASHAY PARIKH</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/labdhi-jain" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Labdhi_Jain.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>LABDHI JAIN</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/arnav-joshi-516516154" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Arnav_Joshi.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>ARNAV JOSHI</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/nikhil-sharma-291a24195" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Nikhil_Sharma.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>NIKHIL SHARMA</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/charlotte-mcculloh-853512195" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Charlotte_McCulloh.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>CHARLOTTE MCCULLOH</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/nathaniel-wesley-63a180172" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Nathaniel_Wesley.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>NATHANIEL WESLEY</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class = "team-member">
+						<a href = "https://linkedin.com/in/pei0718" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Adam_Lee.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>ADAM LEE (李孟霈)</u></b></p>
+							<p class="team-member-position">Business Development</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/beratkjamili" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Berat_Kjamili.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>BERAT KJAMILI</u></b></p>
+							<p class="team-member-position">Public Authorities Head</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/yamanhalawi" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Yaman_Halawi.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>YAMAN HALAWI</u></b></p>
+							<p class="team-member-position">Public Authorities Deputy</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+				</div>
+
+				<!-- <div id="m1" class="anchor"></div>
+				<h1 class="mt-5">EUvsVirus Leadership</h1>
+
+				<br>
+
+				<div class="badges-wrapper">
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/michaelionita" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Michael_Ionita-Ganea.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>MICHAEL IONITA-GANEA</u></b></p>
+							<p class="team-member-position">#EUvsVirus Matchathon Initiator and Co-Coordinator</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/scottyshaw" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Scotty_Shaw.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>SCOTTY SHAW</u></b></p>
+							<p class="team-member-position">#EUvsVirus CTO and National Curator of the United States</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/carolinaemanuelson" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Carolina_Emanuelson.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>CAROLINA EMANUELSON</u></b></p>
+							<p class="team-member-position">Private Partnerships Head</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/tatianamedros" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Tatjana_Matijašević_Medros.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>TATJANA MATIJAŠEVIĆ MEDROS</u></b></p>
+							<p class="team-member-position">Private Partnerships Deputy</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/renata-petrevska-nechkoska-4691362a" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Renata_Petrevska_Nechkoska.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>RENATA PETREVSKA NECHKOSKA</u></b></p>
+							<p class="team-member-position">Academia/R&D Institutes Head</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/urška-jež-983a5311" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Urška_Jež.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>URŠKA JEŽ</u></b></p>
+							<p class="team-member-position">Academia/R&D Institutes Deputy</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/veronica-bandu-38626159" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Veronica_Bandu.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>VERONICA BANDU</u></b></p>
+							<p class="team-member-position">Projects and Matchmakers Head</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/liliana-cannas-1904067" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Liliana_Cannas.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>LILIANA CANNAS</u></b></p>
+							<p class="team-member-position">Projects and Matchmakers Deputy</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/nstergiannis" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Nikolaos_Stergiannis.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>NIKOLAOS STERGIANNIS</u></b></p>
+							<p class="team-member-position">Account Managers Head and Specialist Support</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/nicklamela" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Nick_Lamela.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>NICK LAMELA</u></b></p>
+							<p class="team-member-position">Account Managers Deputy and UX/Design</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/beratkjamili" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Berat_Kjamili.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>BERAT KJAMILI</u></b></p>
+							<p class="team-member-position">Public Authorities Head</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/yamanhalawi" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Yaman_Halawi.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>YAMAN HALAWI</u></b></p>
+							<p class="team-member-position">Public Authorities Deputy</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" 
+							data-type="vertical" data-theme="light" data-vanity="zivileeinikyte"><a class="LI-simple-link"
+								href='https://linkedin.com/in/zivileeinikyte?trk=profile-badge' target="_blank">Zivile Einikyte</a></div>
+						<p class="team-member-position">Private Partnerships and Program</p>
+					</div>
+					<div class="team-member">
+						<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" 
+							data-type="vertical" data-theme="light" data-vanity="josinebakkes"><a class="LI-simple-link"
+								href='https://linkedin.com/in/josinebakkes?trk=profile-badge' target="_blank">Josine Bakkes</a></div>
+						<p class="team-member-position">Private Partnerships and Program</p>
+					</div>
+
+					<div class="team-member">
+						<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES"
+							data-type="vertical" data-theme="light" data-vanity="elenapoughia"><a class="LI-simple-link"
+								href='https://www.linkedin.com/in/elenapoughia?trk=profile-badge'>Elena Poughia</a></div>
+						<p class="team-member-position">Operations Head</p>
+					</div>
+					<div class="team-member">
+						<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES"
+							data-type="vertical" data-theme="light" data-vanity="smaranda-balut-b1938545"><a class="LI-simple-link"
+								href='https://www.linkedin.com/in/smaranda-balut-b1938545?trk=profile-badge'>Smaranda Balut</a></div>
+						<p class="team-member-position">Marketing Head</p>
+					</div>
+
+					<div style="width: 250px; height: 2px;"></div>
+					<div style="width: 250px; height: 2px;"></div>
+
+				</div>
+
+				<div id="m2" class="anchor"></div>
+				<h1 class="mt-5">Tech Team</h1>
+
+				<br>
+
+				<div class="badges-wrapper">
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/scottyshaw" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Scotty_Shaw.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>SCOTTY SHAW</u></b></p>
+							<p class="team-member-position">#EUvsVirus CTO and National Curator of the United States</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/jorden-ragels" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Jorden_Ragels.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>JORDEN RAGELS</u></b></p>
+							<p class="team-member-position">Lead Developer</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/kainyryu" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Kainy_Ryu.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>KAINY RYU</u></b></p>
+							<p class="team-member-position">Lead Developer</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/nicklamela" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Nick_Lamela.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>NICK LAMELA</u></b></p>
+							<p class="team-member-position">Account Managers Deputy and UX/Design</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div style="width: 250px; height: 2px;"></div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/calix-huang" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Calix_Huang.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>CALIX HUANG</u></b></p>
+							<p class="team-member-position">Website Maintenance</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div class="team-member">
+						<a href = "https://linkedin.com/in/eric-fithian" target = "_blank" align = "center">
+							<img src = "../assets/img/teammates/Eric_Fithian.png">
+							<br>
+							<br>
+							<p class="team-member-position"><b><u>ERIC FITHIAN</u></b></p>
+							<p class="team-member-position">Website Maintenance</p>
+							<p class="team-member-position"><b><u>Connect on LinkedIn</u></b></p>
+						</a>
+					</div>
+
+					<div style="width: 250px; height: 2px;"></div>
+
+				</div> -->
+			</div>
+		</section>
+		<!-- End Team -->
+
+		<section class="vertical-spacing"></section>
+
+		<!-- BEGIN Footer -->
+		<footer class="mt-3 pt-1">
+			<div class="container d-flex space-between">
+				<div class="footer-left d-flex">
+					<img class="footer-hashtag" alt="EU versus virus hashtag"
+						src="../assets/img/navbar/EUvsVirus.png">
+					<ul>
+						<li>
+							<a href="../terms/" hreflang="en">
+								Terms &amp; Conditions
+							</a>
+						</li>
+						<li>
+							<a href="../privacy/" hreflang="en">
+								Privacy Policy
+							</a>
+						</li>
+						<li>
+							<a href="../imprint/" hreflang="en">
+								Imprint
+							</a>
+						</li>
+						<li>
+							<a href="../assets/docs/EuvsVirus Values and Code Of Conduct.pdf" hreflang="en"
+								target="_blank">
+								Code of Conduct
+							</a>
+						</li>
+						<li>
+							<a href="mailto:RTD-PAN-EUROPEAN-COVID-HACKATHON@ec.europa.eu" hreflang="en">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="d-flex align-items-center d-none-mobile">
+					<div class="d-flex align-items-center">
+						<a href="https://facebook.com/EUvsVirus/" target="_blank" rel="noreferrer">
+						  <img class="navbar-logo" alt="Logo Facebook" src="../assets/img/navbar/facebook.png">
+						</a>
+						<a href="https://linkedin.com/company/EUvsVirus/" target="_blank" rel="noreferrer">
+						  <img class="navbar-logo" alt="Logo LinkedIn" src="../assets/img/navbar/linkedin.png">
+						</a>
+						<a href="https://instagram.com/EUvsVirus/" target="_blank" rel="noreferrer">
+						  <img class="navbar-logo" alt="Logo Instagram" src="../assets/img/navbar/instagram.png">
+						</a>
+						<a href="https://twitter.com/EUvsVirus" target="_blank" rel="noreferrer">
+						  <img class="navbar-logo" alt="Logo Twitter" src="../assets/img/navbar/twitter.png">
+						</a>
+						<a href="https://youtube.com/c/EUvsVirus/" target="_blank" rel="noreferrer">
+						  <img class="navbar-logo" alt="Logo Facebook" src="../assets/img/navbar/youtube.png">
+						</a>
+						<div style="width: 60px;"></div>
+						<a href="https://facebook.com/events/1623634201122719/" target="_blank" rel="noreferrer">
+						  <img class="navbar-logo" alt="Logo Facebook" src="../assets/img/footer/fbevent.png">
+						</a>
+						<a href="https://www.linkedin.com/groups/8928483/" target="_blank" rel="noreferrer">
+						  <img class="navbar-logo" alt="Logo LinkedIn" src="../assets/img/navbar/linkedingroup1.png">
+						</a>
+						<a href="https://facebook.com/events/665463977640860/" target="_blank" rel="noreferrer">
+						  <img class="navbar-logo" alt="Logo Facebook" src="../assets/img/footer/fbevent.png">
+						</a>
+						<div style="width: 40px;"></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- END Footer -->
+
+		<script src="../assets/js/global-023.js"></script>
+		<!-- // <script src="../assets/js/cookieconsent-017.min.js"></script> -->
+	</body>
+
+</html>

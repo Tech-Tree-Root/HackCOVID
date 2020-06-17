@@ -8,6 +8,7 @@
 	--color-grey-h3-bold: #3C4043;
 	--color-blue-h3-normal: #00539B;
 	--color-white-h3-normal: #FFFFFF;
+	--color-black: #000000;
 
     
     --layout-agenda-cell-height: 20px;
@@ -1720,7 +1721,7 @@ nav ul ul ul li {
 	width: 80%;
 	margin-top: 1rem;
 	color: #222121;
-	color: var(--color-white-h3-normal);
+	color: var(--color-black);
 }
 .legal a {
 	color: #003399;

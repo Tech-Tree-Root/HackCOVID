@@ -43,26 +43,30 @@
 }
 
 @font-face {
-    font-family: 'PT Sans';
-	src: url('./fonts/PTSans-Regular.ttf') format('truetype');
+    font-family: 'Helvetica';
+    /*src: url('./fonts/PTSans-Regular.ttf') format('truetype');*/
+	src: url('./fonts/helveticaneue/HelveticaNeue-Thin.ttf') format('truetype');
 	font-weight:normal;
 	font-style:normal;
 }
 @font-face {
-    font-family: 'PT Sans';
-	src: url('./fonts/PTSans-Bold.ttf') format('truetype');
+    font-family: 'Helvetica';
+	/*src: url('./fonts/PTSans-Bold.ttf') format('truetype');*/
+	src: url('./fonts/helveticaneue/HelveticaNeue-Medium.ttf') format('truetype');
 	font-weight:bold;
 	font-style:normal;
 }
 @font-face {
-    font-family: 'PT Sans';
-	src: url('./fonts/PTSans-Italic.ttf') format('truetype');
+    font-family: 'Helvetica';
+	/*src: url('./fonts/PTSans-Italic.ttf') format('truetype');*/
+	src: url('./fonts/helveticaneue/HelveticaNeueIt.ttf') format('truetype');
 	font-weight:normal;
 	font-style:italic;
 }
 @font-face {
-    font-family: 'PT Sans';
-	src: url('./fonts/PTSans-BoldItalic.ttf') format('truetype');
+    font-family: 'Helvetica';
+	/*src: url('./fonts/PTSans-BoldItalic.ttf') format('truetype');*/
+	src: url('./fonts/helveticaneue/HelveticaNeue-Medium.ttf') format('truetype');
 	font-weight:bold;
 	font-style:italic;
 }
@@ -74,7 +78,7 @@ body {
 	padding:0;
 	text-rendering:optimizeLegibility;
 	-webkit-font-smoothing:antialiased;
-	font-family: "PT Sans", sans-serif;
+	font-family: "Helvetica", sans-serif;
 }
 
 img {
@@ -212,6 +216,12 @@ button:focus {
 	padding: 6px 6px;
 	border-radius: 30px;
 	width: 160px;
+}
+.primary-button.btn-rounded-long {
+	padding: 10px 25px;
+	width: 400px;
+	border-radius: 30px;
+	margin-right: 16px;
 }
 @media (max-width: 576px) {
 	.primary-button-wrapper {
